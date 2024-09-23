@@ -1,17 +1,84 @@
-body{
-    background-color: aliceblue;
-}
-
-
-main{
+/* Estilo del cuerpo */
+body {
+    background-color: #f8f9fc;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.login-flex{
-    margin-top: 20dvh;
+/* Estilos principales */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Contenedor del login */
+.login-container {
     background-color: white;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    padding: 8dvh 20dvh;
-    border-radius: 3%;
+    padding: 40px 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+/* Grupos de formulario */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Estilo de los labels */
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilo de los inputs */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Efecto hover del botón */
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Sombra para los inputs */
+.form-group input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
 }

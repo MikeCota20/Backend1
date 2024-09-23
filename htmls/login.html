@@ -8,25 +8,19 @@
 </head>
 <body>
     <main>
-        <div class="login-flex">
+        <div class="login-container">
             <h1>Login</h1>
             <form>
-                <div>
-                    <label>
-                        Username
-                    </label>
-                    <br>
-                    <input type="text">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter username">
                 </div>
-                <div>
-                    <label>
-                        Password
-                    </label>
-                    <br>
-                    <input type="text">
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
                 </div>
+                <button type="submit" class="login-btn">Login</button>
             </form>
-            <button class="login-btn">Login</button>
         </div>
     </main>
 </body>

@@ -1,0 +1,95 @@
+/* Estilo general del cuerpo */
+body {
+    background-color: #f8f9fc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo del main container */
+main {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 60%;
+}
+
+/* Título */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Sección de agregar tareas */
+.add-task {
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+.add-task form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Input para las tareas */
+.add-task input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+/* Botón de añadir tarea */
+.add-task button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Botón de añadir tarea (hover) */
+.add-task button:hover {
+    background-color: #0056b3;
+}
+
+/* Lista de tareas */
+.task-list {
+    margin-top: 20px;
+}
+
+/* Título de la lista de tareas */
+.task-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333;
+}
+
+/* Contenedor de tareas */
+.da-tasks {
+    margin-bottom: 20px;
+}
+
+/* Cada tarea */
+.task {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
